@@ -1,0 +1,71 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+}
+body {
+  background-color: black;
+}
+span , strong{
+  display: grid;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: rgb(87, 86, 86);
+}
+h2 {
+  background-color: rgb(52, 52, 52);
+  color: rgb(150, 146, 146);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+h3 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+.btn {
+  justify-self: center;
+  padding: 0.55em 1.5em;
+  border: 0.1em solid #0c0b0b;
+  margin: 2em 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(52, 52, 52);
+}
+.btn:hover {
+  color: #fff;
+  background-color: rgb(87, 82, 82);
+}
+button {
+  justify-self: center;
+  padding: 0.55em 1.5em;
+  border: 0.1em solid #0c0b0b;
+  margin: 2em 0em 2em 0em;
+  border-radius: 0.12em;
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  background-color: #4891eb;
+}
+
+button:hover {
+  color: #000000;
+  background-color: #a1c0e6;
+}
+
+.likebtn {
+  display: none;
+}
+
+ul {
+  color: #fff;
+  display: grid;
+  text-align: left;
+  font-family: "Times New Roman";
+}
+.myDiv {
+  margin: 2em 0.3em 0.3em 0;
+  border: 1px solid wheat;
+}
